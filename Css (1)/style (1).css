@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url("test.jpg");
+    font-family: 'Roboto', sans-serif;
+    }
+
+nav {
+    background-color: #352587;
+    width: 100%;
+    height: auto;   
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+
+    
+
+    }
+.navRight {
+    display: flex;
+    align-items: center;
+    
+          }
+.navRight ul {
+    display: flex;
+    align-items: center;
+    
+            }
+.navRight ul li{
+    list-style: none;
+    
+                }
+
+.navRight ul li a {
+text-decoration: none;
+margin-left: 50px;
+color: #D5CDFF;
+
+                  }  
+.logoimg {
+    margin-top: 15px;
+    margin-left: 50px;
+    
+        } 
+/* Start Menu */
+.MenuContainer {
+    /* position: relative; */
+    display: none;
+}
+/* END Menu */
+.cart {
+margin-right: 50px;
+margin-left: 25px;
+background: #D5CDFF;
+cursor: pointer;
+      }
+.menuu{
+    display: none;
+    cursor: pointer;
+    
+   
+}
+.sechead{
+   
+    background-color: #211369;
+        }
+
+.photohead {
+    opacity: .65;
+    position: relative;
+    
+    
+            }
+  
+.vie {
+    position: absolute;
+    color: #D5CDFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+     }
+
+.donnezvie{
+     font-weight: bold;
+          }
+    /* .photomain1{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    } */
+
+    
+
+h1 {
+    color: #fff;
+    margin:0;
+    text-align: center;
+    font-size: 40px;
+    }
+
+.ndSection{
+    /* background-image: url("https://interactive-examples.mdn.mozilla.net/media/examples/lizard.png"); */
+    background-image: url("Data (1)\Icons (1)\photo1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    
+        }
+.produit {
+    padding: 50px;
+    background-color: #352587;
+    height: 600px;
+    
+        }  
+.produit h1 {
+    padding-top: 30px;
+            }
+.pp{
+    margin:auto;
+   }
+.photomain2{
+    margin-top: 0px;
+    display: block;
+    
+           }
+.features{
+    margin-left: 250px;
+    margin-top: 70px;
+         }
+.caracteristiques {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: baseline;
+    margin-top: 80px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #352587;
+                }
+.caracteristiques h3{
+    font-weight: bold;
+}
+.caracteristiques p{
+    color: #fff;
+}
+.promotion {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: auto auto ;
+    background-color: #9D1A1F;
+    width: 100%;
+    height: 50%;
+        }
+.pro{
+    padding: 10%;
+    background-color: #fff;
+    padding: 100px;
+}
+#bar{
+    text-decoration:line-through;
+    }
+#arg{
+    color:#F1C559;
+    font-size: 40px;
+    margin-top: -10px;
+    text-align: center;
+    margin-bottom: 0;
+    }
+#size140{
+    font-size: 50px;
+        }
+.hurr{
+    margin-top: 50px;
+     }
+     input[type=text], textarea {
+        padding: 12px 20px;
+        
+        display:flex;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font: 300 1em/1.35rem "proxima-nova", sans-serif;
+        width: 100%;
+        background-color: #d0caf1;
+    }
+    textarea{
+        height: 122px;
+    width: 373px;
+    width: 100%;
+    }
+    textarea::-webkit-scrollbar{
+        width: 12px;
+        line-height: 2.3;
+        width: 100%;
+        
+    }
+     input[type=send] {
+        justify-self: flex-end;
+        width: 150px;
+        height: 50px;
+        background-color: #d0caf1;
+        border-style: none;
+        margin-top: 30px;
+        color: #9D1A1F;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        float: right;
+      }
+    .btn input[type=send]{
+        align-self:flex-end;
+        
+        
+    }
+      
+    input[type=send]:hover {
+        background-color: #F1C559;
+        
+
+       
+       
+    }
+    
+.commanderb{
+    border: 0;
+    color: #9D1A1F;
+    font-size: 30px;
+    font-weight: bold;
+
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+    width: 236px;
+    height: 76px;
+    margin-left: 30%;
+    
+            }
+.testo{
+    position: relative;
+
+      }
+.nu{
+    position: absolute;
+    
+    margin-top: -370px;
+    text-align: start;
+    width: 41%;
+    
+
+   }
+.nu h1 {
+        
+      font-size: 30px;
+
+       }
+.nu p{
+       color: #fff;
+       margin-left: 20px;
+     }
+footer{
+    background-color: #201848;
+    
+
+      }
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+
+    
+    
+    height:fit-content;
+                }
+  
+  .grid-item {
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+             }
+footer section {
+    color: #ccc;
+    height: 170px;
+                }
+h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+    
+    }
+.te{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+    }
+    
+   
+.par-1 {
+    color: #fff;
+  
+    
+        
+    
+    }
+
+.th2{
+    text-decoration: none;
+    color: #fff;
+
+    }
+.par-2{
+ color: #fff;
+}
+/* .par-2 h2{
+    
+} */
+.par-2 a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;     
+      
+         }
+.pppp{
+    
+}
+.par-3 {
+    color: #fff;
+        
+       }  
+.par-3 h2{
+    text-align: start;
+    } 
+.prom30{
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 250px;
+       }
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    
+    border: 1px solid #ccc ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    width: 60%;
+    border: none;
+    background-color: #D5CDFF;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    
+    border-radius: 8px;
+     
+            }
+
+.copy{
+    border: solid;
+    border-color: #ccc;
+    padding: 10px;
+    color: #fff;
+      }
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+
+        .features{
+            width: 500px;
+            margin-left: 10px;
+        }
+        .navRight{
+        display: none;
+            
+        }
+        .produit {
+            background-color: #352587;
+            margin:0;
+            height: auto;
+            ;
+        
+        }
+        .caracteristiques{
+            
+            display: grid;
+            grid-template-columns: auto auto;
+            height: auto;
+        
+           margin:0;
+            
+            
+           
+        }
+        .promotion {
+            display:none;
+        
+        }
+        
+        .promotion{
+            
+            display: block;
+            display: grid;
+            grid-template-columns: auto ;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto ;
+            height: auto;
+            justify-items: start;
+            justify-content: center;
+            align-items: center;
+        
+            
+        
+        }
+        
+        .copy{
+            display: none;
+        
+        }
+        .copy{
+            display: block;
+            
+        }
+        .menuu{
+            display: block;
+        }
+        /* Menu */
+        .MenuContainer {
+            /* position: relative; */
+            display: inline-block;
+            
+        }
+
+        .Menu {
+            /* background-color: #04AA6D; */
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            position: relative;
+            right: 0.7rem;
+           
+        }
+        .MenuIcon{
+            width: 100%;
+            padding: 16px;
+            cursor: pointer;
+        }
+
+        .links {
+            display: none;
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            left: 0rem;
+            top: 120px;
+            background-color: #f1f1f1;
+            width: 100%;
+            /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+            z-index: 1;
+        }
+
+        .links a {
+            color: black;
+            padding: 20px 16px;
+            text-decoration: none;
+            display: block;
+            font-size: 2rem;
+        }
+
+        /* This 2 lines are responsible for the visibility
+        of the DropDop menu after Hovering over it */
+
+        .links a:hover {background-color: #ddd;}
+        .MenuContainer:hover .links {display: block;}
+        
+/* End Menu */
+        }
+        
+       
+
